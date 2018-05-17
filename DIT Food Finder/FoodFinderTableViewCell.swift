@@ -1,7 +1,7 @@
 //
 //  FoodFinderTableViewCell.swift
 //  DIT Food Finder
-//
+// 김영석
 //  Created by D7702_10 on 2018. 5. 17..
 //  Copyright © 2018년 hsw. All rights reserved.
 //
