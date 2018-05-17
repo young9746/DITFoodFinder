@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		14F24A0B20AD163A00296186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F24A0A20AD163A00296186 /* AppDelegate.swift */; };
-		14F24A0D20AD163A00296186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F24A0C20AD163A00296186 /* ViewController.swift */; };
 		14F24A1020AD163A00296186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F24A0E20AD163A00296186 /* Main.storyboard */; };
 		14F24A1220AD163A00296186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F24A1120AD163A00296186 /* Assets.xcassets */; };
 		14F24A1520AD163A00296186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F24A1320AD163A00296186 /* LaunchScreen.storyboard */; };
+		14F24A1D20AD1F9500296186 /* FoodFinderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F24A1C20AD1F9500296186 /* FoodFinderTableViewController.swift */; };
+		14F24A1F20AD200500296186 /* FoodFinderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F24A1E20AD200500296186 /* FoodFinderTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14F24A0720AD163A00296186 /* DIT Food Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIT Food Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F24A0A20AD163A00296186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14F24A0C20AD163A00296186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14F24A0F20AD163A00296186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14F24A1120AD163A00296186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14F24A1420AD163A00296186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14F24A1620AD163A00296186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F24A1C20AD1F9500296186 /* FoodFinderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinderTableViewController.swift; sourceTree = "<group>"; };
+		14F24A1E20AD200500296186 /* FoodFinderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinderTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		14F24A0920AD163A00296186 /* DIT Food Finder */ = {
 			isa = PBXGroup;
 			children = (
+				14F24A1C20AD1F9500296186 /* FoodFinderTableViewController.swift */,
 				14F24A0A20AD163A00296186 /* AppDelegate.swift */,
-				14F24A0C20AD163A00296186 /* ViewController.swift */,
 				14F24A0E20AD163A00296186 /* Main.storyboard */,
+				14F24A1E20AD200500296186 /* FoodFinderTableViewCell.swift */,
 				14F24A1120AD163A00296186 /* Assets.xcassets */,
 				14F24A1320AD163A00296186 /* LaunchScreen.storyboard */,
 				14F24A1620AD163A00296186 /* Info.plist */,
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14F24A0D20AD163A00296186 /* ViewController.swift in Sources */,
+				14F24A1F20AD200500296186 /* FoodFinderTableViewCell.swift in Sources */,
 				14F24A0B20AD163A00296186 /* AppDelegate.swift in Sources */,
+				14F24A1D20AD1F9500296186 /* FoodFinderTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

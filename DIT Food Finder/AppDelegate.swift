@@ -3,7 +3,7 @@
 //  DIT Food Finder
 //
 //  Created by D7702_10 on 2018. 5. 17..
-//  Copyright © 2018년 jik. All rights reserved.
+//  Copyright © 2018년 hsw. All rights reserved.
 //
 
 import UIKit
